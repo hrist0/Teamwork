@@ -1,0 +1,91 @@
+
+/* 
+    Created on : 13.02.2015, 14:03:41
+    Author     : Turbo-X
+*/
+body{
+    background-color: gainsboro;
+}
+.mainTabb{
+    background-color:#234465;
+    width: 102%;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+img{
+    height:100px;
+}
+.thTag a{
+    padding-left: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.bla{
+    padding-left:30px;
+}
+#lastTag{
+    padding-right: 15px;
+}
+.bell img{
+    width: 19px;
+    height: 19px;
+    padding-right: 20px;
+    padding-top: 7px;
+    text-decoration: underline;
+}
+.firstTab{
+    float: right;
+    padding-right: 70px;
+}
+.secondTab{
+    padding-bottom: 10px;
+    float: right;
+    padding-right: 35px;
+}
+a:hover {
+    text-decoration: underline;
+}
+p:hover{
+    text-decoration: underline;
+}
+p{
+    color: whitesmoke;
+    font-size: 16px;
+}
+.button{
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    margin-top: 3px;
+    background-image: url("search.png")
+}
+.main_cont{
+    width: 1395px;
+    height: 650px;
+}
+.left_contain{
+    width: 445px;
+    height: 600px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middle_contain{
+    width: 800px;
+    height: 600px;
+    float: right;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.under_top{
+    width: 994px;
+    height: 500px;
+}
+.footer{
+    width: 1200px;
+    height: 204px;
+    border: 1px solid black; 
+}
