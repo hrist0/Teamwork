@@ -1,91 +1,236 @@
-
 /* 
     Created on : 13.02.2015, 14:03:41
     Author     : Turbo-X
 */
+*{
+    margin:0 auto;
+    padding:0;
+}
 body{
     background-color: gainsboro;
 }
-.mainTabb{
-    background-color:#234465;
-    width: 102%;
-    margin-left: -8px;
-    margin-top: -8px;
+header{
+    background-color: #ff9c00;
+    height: 95px; 
+    -webkit-border-bottom-left-radius: 15px 15px;
+    -webkit-border-bottom-right-radius: 15px 15px;
 }
-img{
-    height:100px;
-}
-.thTag a{
-    padding-left: 10px;
-    font-size: 16px;
-    color: whitesmoke;
-    text-decoration: none;
-}
-.bla{
-    padding-left:30px;
-}
-#lastTag{
-    padding-right: 15px;
-}
-.bell img{
-    width: 19px;
-    height: 19px;
-    padding-right: 20px;
-    padding-top: 7px;
-    text-decoration: underline;
-}
-.firstTab{
-    float: right;
-    padding-right: 70px;
-}
-.secondTab{
-    padding-bottom: 10px;
-    float: right;
-    padding-right: 35px;
-}
-a:hover {
-    text-decoration: underline;
-}
-p:hover{
-    text-decoration: underline;
-}
-p{
-    color: whitesmoke;
-    font-size: 16px;
-}
-.button{
-    height: 22px;
-    width: 22px;
-    position: absolute;
-    margin-top: 3px;
-    background-image: url("search.png")
-}
-.main_cont{
-    width: 1395px;
-    height: 650px;
-}
-.left_contain{
-    width: 445px;
-    height: 600px;
+.softuni_icon{
+    background-image: url("Softuni.png");
+    width: 100px;
+    height: 95px;
     float: left;
-    border: 1px solid gray;
-    margin-top: 10px;
-    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
 }
-.middle_contain{
-    width: 800px;
-    height: 600px;
+.softuni_text{
+    width: 270px;
+    height: 85px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 9px;
+}
+.softuni_text p{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.softuni_text a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Permanent Marker', cursive; 
+}
+.softuni_text a:hover{
+    text-decoration: none;
+    color: #234465;
+    font-family: 'Permanent Marker', cursive;  
+}
+.softuni_text a:nth-child(2):hover{
+    text-decoration: none;
+    color: green;
+}
+.softuni_menu{
+    margin-left: 100px;
+    height: 90px;
+    width: 680px;
+    float: left;
+}
+.softuni_menu li{
+    list-style: none;
+    float: left;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.softuni_menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive;
+}
+.softuni_menu a:hover{
+    text-decoration: none;
+    color: #234465;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive; 
+}
+main{
+    height: 830px; 
+}
+.left_container{
+    border: 2px solid gray;
+    width: 500px;
+    height: 800px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.right_container{
+    border: 2px solid gray;
+    width: 750px;
+    height: 800px;
     float: right;
-    border: 1px solid gray;
+    margin-right: 30px;  margin-top: 20px;
+}
+/*1px solid #343434 */
+footer{
+    background-color: #343434;
+    height: 235px; 
+    -webkit-border-top-left-radius: 15px 15px;
+    -webkit-border-top-right-radius: 15px 15px;
+    -webkit-border-bottom-left-radius: 15px 15px;
+    -webkit-border-bottom-right-radius: 15px 15px;
+    margin-top: 30px;
+}
+.our_team{
+    width: 205px;
+    height: 205px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.our_team span{
+    font-size: 17px;
+}
+.our_team p{
     margin-top: 10px;
-    margin-left: 10px;
 }
-.under_top{
-    width: 994px;
-    height: 500px;
+.our_team a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
 }
-.footer{
-    width: 1200px;
-    height: 204px;
-    border: 1px solid black; 
+.our_team a:hover{
+    text-decoration: underline;
+}
+.partners{
+    width: 200px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.partners a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.partners a:hover{
+    text-decoration: underline;
+}
+.sponsors{
+    width: 185px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.sponsors a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.sponsors a:hover{
+    text-decoration: underline;
+}
+.friends{
+    width: 220px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.friends a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.friends a:hover{
+    text-decoration: underline;
+}
+.like{
+    width: 228px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.fakebook{
+    background-image: url("facebook.png");
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+.like_href{
+    width: 130px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.like a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #ff9c00;
+    float: left;
+    margin-top: 3px;
+}
+.like a:hover{
+    text-decoration: underline;
+    font-size: 19px;
+    color: #ff9c00;
+    float: left;
+    margin-top: 3px;
+}
+.quicker{
+    background-image: url("twitter.png");
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
 }
