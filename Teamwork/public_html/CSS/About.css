@@ -1,0 +1,294 @@
+/* 
+    Created on : 13.02.2015, 14:03:41
+    Author     : Turbo-X
+*/
+*{
+    margin:0 auto;
+    padding:0;
+}
+body{
+    background-color: #F0F0F0;
+}
+
+/*---------------Header---------------*/
+
+header{
+    background-color: #ff9c00;
+    height: 95px; 
+    -webkit-border-bottom-left-radius: 15px 15px;
+    -webkit-border-bottom-right-radius: 15px 15px;
+}
+.softuni_icon{
+    background-image: url("images/Softuni.png");
+    width: 100px;
+    height: 95px;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.softuni_text{
+    width: 270px;
+    height: 85px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 9px;
+}
+.softuni_text p{
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.softuni_text a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Permanent Marker', cursive; 
+}
+.softuni_text a:hover{
+    text-decoration: none;
+    color: #3d78b1;
+    font-family: 'Permanent Marker', cursive;  
+}
+.softuni_menu{
+    margin-left: 100px;
+    height: 90px;
+    width: 680px;
+    float: left;
+}
+.softuni_menu li{
+    list-style: none;
+    float: left;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.softuni_menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive;
+}
+.softuni_menu a:hover{
+    text-decoration: none;
+    color: #3d78b1;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive; 
+}
+
+/*---------------Header---------------*/
+
+
+/*-------------Body--------------*/
+
+main{
+    height: 495px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+/*-------------Left Container----------------*/
+.left_container{
+    border: 2px solid gray;
+    width: 750px;
+    height: 430px;
+    float: left;
+    margin-left: 50px;
+    padding: 20px;
+    font-family: Arial;
+    background-color: white;
+    border-radius: 30px;
+}
+.left_container p{
+    color: #ff9c00;
+    font-size: 39px;
+    font-weight: 900;
+    text-align: center;
+    font-family: cursive;
+}
+iframe{
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ff9c00;
+    -webkit-border-bottom-left-radius: 5px 5px;
+    -webkit-border-bottom-right-radius: 5px 5px;
+    -webkit-border-top-left-radius: 5px 5px;
+    -webkit-border-top-right-radius: 5px 5px;
+}
+iframe img{
+    -webkit-user-select: none;
+    width: 325px;
+    height: 325px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.left{
+    float: left;
+    padding: 20px;
+}
+.right{
+    float:right;
+    left: 50px;
+    padding: 20px;
+}
+.left_container  a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #3d78b1;
+    font-weight: 600;
+}
+
+/*-------------Left Container----------------*/
+
+/*-------------Right Container----------------*/
+.right_container{
+    border: 2px solid gray;
+    width: 300px;
+    height: 430px;
+    float: right;
+    margin-right: 50px;  
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    /* margin-left: 150px; */
+}
+/*-------------Body--------------*/
+
+/*---------------Footer------------*/
+
+footer{
+    background-color: #343434;
+    height: 235px; 
+    -webkit-border-top-left-radius: 15px 15px;
+    -webkit-border-top-right-radius: 15px 15px;
+}
+.our_team{
+    width: 205px;
+    height: 205px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.our_team span{
+    font-size: 17px;
+}
+.our_team p{
+    margin-top: 10px;
+}
+.our_team a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.our_team a:hover{
+    text-decoration: underline;
+}
+.partners{
+    width: 200px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.partners a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.partners a:hover{
+    text-decoration: underline;
+}
+.sponsors{
+    width: 185px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.sponsors a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.sponsors a:hover{
+    text-decoration: underline;
+}
+.friends{
+    width: 220px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.friends a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9c00;
+}
+.friends a:hover{
+    text-decoration: underline;
+}
+.like{
+    width: 228px;
+    height: 150px;
+    float: left;
+    color: #ff9c00;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.fakebook{
+    background-image: url("../images/facebook.png");
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+.like_href{
+    width: 130px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.like a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #ff9c00;
+    float: left;
+    margin-top: 3px;
+}
+.like a:hover{
+    text-decoration: underline;
+    font-size: 19px;
+    color: #ff9c00;
+    float: left;
+    margin-top: 3px;
+}
+.quicker{
+    background-image: url("../images/twitter.png");
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+/*---------------Footer------------*/
