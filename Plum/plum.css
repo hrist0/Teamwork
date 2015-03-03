@@ -1,0 +1,55 @@
+﻿
+/* 
+    Created on : 28.02.2015, 14:03:41
+    Author     : Saury
+*/
+#plum {
+margin-left: 40px;
+}
+
+ul.my  {
+list-style-image: url('pinkrosa2a.png');
+}
+ h2{ text-align: center;
+ color: #660033;
+   }
+   
+   details>p,   blockquote>p{
+   margin: 10px;
+   }
+ 
+ summary {
+ font-size: 18px;
+ color: #660033;
+ margin: 10px;
+ }
+
+.myfooter {
+			height: 20px;
+						margin: 30px;
+			
+			}
+			
+.myfooter a:hover {
+color: #ff9c00;
+}	
+.myfooter a {
+	text-decoration: none;
+	color: #343434;
+	}	
+.myr {position: relative;
+ left: 63px;
+ top: -58px;
+ width: 660px;
+}	
+.myh { height: 20px;
+		text-align: center;
+}
+article {margin-bottom: -20px;}
+
+img {margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+		margin-left: 5px;}
+		
+	
