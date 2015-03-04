@@ -15,70 +15,74 @@ body{
 header{
     background-color: #ff9c00;
     height: 95px; 
-    -webkit-border-bottom-left-radius: 15px 15px;
-    -webkit-border-bottom-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
 }
 .softuni_icon{
-    background-image: url("images/Softuni.png");
+    background-image: url("../images/Softuni.png");
     width: 100px;
     height: 95px;
     float: left;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .softuni_text{
     width: 270px;
     height: 85px;
     float: left;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-top: 9px;
 }
 .softuni_text p{
     color: white;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
 }
 .softuni_text a{
     text-decoration: none;
     color: white;
-    font-family: 'Permanent Marker', cursive; 
+    font-family: cursive, sans-serif; 
+    transition: 0.4s;
 }
 .softuni_text a:hover{
     text-decoration: none;
     color: #3d78b1;
-    font-family: 'Permanent Marker', cursive;  
+    font-family: cursive, sans-serif;
+    transition: 0.4s;
 }
 .softuni_text a:nth-child(2):hover{
     text-decoration: none;
     color: green;
 }
 .softuni_menu{
-    margin-left: 100px;
+    /*margin-left: 100px;*/
     height: 90px;
-    width: 680px;
-    float: left;
+    width: 620px;
+    float: right;
 }
 .softuni_menu li{
     list-style: none;
     float: left;
     margin-top: 35px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .softuni_menu a{
     text-decoration: none;
     color: white;
     font-size: 21px;
     font-weight: 600;
-    font-family: 'Permanent Marker', cursive;
+    font-family: cursive, sans-serif; 
+    transition: 0.4s;
 }
 .softuni_menu a:hover{
     text-decoration: none;
-    color: #3d78b1;
+    color: #3d78b1;;
     font-size: 21px;
     font-weight: 600;
-    font-family: 'Permanent Marker', cursive; 
+    font-family: cursive, sans-serif;  
+    transition: 0.4s;
 }
 
 /*---------------Header---------------*/
@@ -87,7 +91,7 @@ header{
 /*-------------Body--------------*/
 
 main{
-    height: 900px; 
+    height: auto; 
     margin-top: 30px;
 }
 
@@ -95,10 +99,10 @@ main{
 
 .left_container{
     border: 2px solid gray;
-    width: 635px;
-    height: 800px;
+    width: 640px;
+    height: 925px;
     float: left;
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 20px;
     font-family: Arial;
     background-color: white;
@@ -108,7 +112,7 @@ main{
     color: #3d78b1;
     font-family: Verdana, sans-serif;
     text-align: center;
-    font-size: 27px;
+    font-size: 26px;
 }
 .left_container hr{
     border: 2px solid #ff9c00;
@@ -154,13 +158,23 @@ main{
     background-image: url("../images/korea.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 135px;
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.facebook_image{
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
     height: 130px;
     float: left;
+    margin-top: -10px;
 }
 .text{
     float: right;
-    width: 490px;
+    width: 470px;
 }
 .text h3{
     font-size: 24px;
@@ -184,10 +198,10 @@ main{
 
 .right_container{
     border: 2px solid gray;
-    width: 540px;
-    height: 800px;
+    width: 590px;
+    height: 925px;
     float: right;
-    margin-right: 40px;  
+    margin-right: 20px;  
     border-radius: 30px;
     padding: 20px;
     background-color: white;
@@ -196,19 +210,28 @@ main{
     color: #3d78b1;
     font-family: Verdana, sans-serif;
     text-align: center;
-    font-size: 27px;
+    font-size: 26px;
 }
 .right_container hr{
     border: 2px solid #ff9c00;
 }
 .sharp_code{
     margin-top: 15px;
-    width: 540px; 
+    width: 660px; 
+}
+.java_code{
+    margin-top: 15px;
+    width: 620px;  
 }
 .sharp_code pre{
-    border: 1px solid gray;
     font-size: 14px;
     padding: 5px;
+    font-weight: 600;
+}
+.java_code pre{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 600;
 }
 
 /*-------------Body--------------*/
@@ -217,21 +240,25 @@ main{
 /*---------------Footer------------*/
 
 footer{
+    width: 100%;
+    margin-top: 40px;
+    display: inline-block;
+    float: left;
     background-color: #343434;
     height: 235px; 
-    -webkit-border-top-left-radius: 15px 15px;
-    -webkit-border-top-right-radius: 15px 15px;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .our_team{
     width: 205px;
     height: 205px;
     float: left;
     color: #ff9c00;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: cursive;
     margin-top: 30px;
-    margin-left: 110px;
+    margin-left: 90px;
 }
 .our_team span{
     font-size: 17px;
@@ -252,7 +279,7 @@ footer{
     height: 150px;
     float: left;
     color: #ff9c00;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: cursive;
     margin-top: 30px;
@@ -267,11 +294,11 @@ footer{
     text-decoration: underline;
 }
 .sponsors{
-    width: 185px;
+    width: 205px;
     height: 150px;
     float: left;
     color: #ff9c00;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: cursive;
     margin-top: 30px;
@@ -290,11 +317,11 @@ footer{
     height: 150px;
     float: left;
     color: #ff9c00;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: cursive;
     margin-top: 30px;
-    margin-left: 45px;
+    margin-left: 25px;
 }
 .friends a{
     text-decoration: none;
@@ -309,7 +336,7 @@ footer{
     height: 150px;
     float: left;
     color: #ff9c00;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: cursive;
     margin-top: 30px;
@@ -352,3 +379,831 @@ footer{
     float: right;
 }
 /*---------------Footer------------*/
+
+/*---------------Responsive------------*/
+
+@media screen and (max-width: 1400px){
+
+    /*--------Left Container--------*/
+    .left_container{
+        width: 560px;
+        height: 925px;
+        margin-left: 20px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .left_container h2{
+        font-size: 24px;
+    }
+    .first_news{
+        height: 130px;
+        margin-top: 20px;
+    }
+    .nasa_image{
+        width: 135px;
+        height: 130px;
+    }
+    .Nakov_image{
+        width: 125px;
+        height: 120px;
+    }
+    .MIT_image{
+        width: 125px;
+        height: 120px;
+        margin-left: 10px;
+    }
+    .microsoft_image{
+        width: 135px;
+        height: 135px;
+    }
+    .korea_image{
+        width: 135px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .facebook_image{
+        width: 125px;
+        height: 120px;
+        margin-top: -10px;
+    }
+    .text{
+        width: 390px;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+    .text p{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .text a{
+        font-size: 15px;
+    } 
+    footer{
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+        float: left;
+        background-color: #343434;
+        height: 235px; 
+        border-top-left-radius: 15px 15px;
+        border-top-right-radius: 15px 15px;
+    }
+    .our_team{
+        width: 150px;
+        height: 205px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .our_team span{
+        font-size: 16px;
+    }
+    .our_team p{
+        margin-top: 10px;
+    }
+    .our_team a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #ff9c00;
+    }
+    .our_team a:hover{
+        text-decoration: underline;
+    }
+    .partners{
+        width: 170px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .partners a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .partners a:hover{
+        text-decoration: underline;
+    }
+    .sponsors{
+        width: 155px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .sponsors a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .sponsors a:hover{
+        text-decoration: underline;
+    }
+    .friends{
+        width: 160px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .friends a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .friends a:hover{
+        text-decoration: underline;
+    }
+    .like{
+        width: 120px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .fakebook{
+        background-image: url("../images/facebook.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    .like_href{
+        width: 130px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+    }
+    .like a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .like a:hover{
+        text-decoration: underline;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .quicker{
+        background-image: url("../images/twitter.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    /*--------Left Container--------*/
+
+    /*--------Right Container--------*/
+    .right_container{
+        width: 665px;
+        height: 1035px;
+        margin: auto;  
+        float: none;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .right_container h2{
+        font-size: 24px;
+    } 
+    .sharp_code{
+        margin-top: 10px; 
+    }
+    .java_code{
+        margin-top: 10px;  
+    }
+    .sharp_code pre{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .java_code pre{
+        font-size: 17px; 
+        font-family: sans-serif;
+    }
+    /*--------Left Container--------*/
+
+    /*--------Right Container--------*/
+    .right_container{
+        width: 535px;
+        height: 955px;
+        float: right;
+        margin-right: 20px;  
+        border-radius: 30px;
+        padding: 20px;
+
+    }
+    .right_container h2{
+        font-size: 24px;
+    } 
+    .sharp_code{
+        margin-top: 10px; 
+    }
+    .java_code{
+        margin-top: 10px;  
+    }
+    .sharp_code pre{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .java_code pre{
+        font-size: 16px; 
+        font-family: sans-serif;
+    }
+    /*--------Right Container--------*/
+}
+@media screen and (max-width: 1250px){
+    /*--------Left Container--------*/
+
+    .left_container{
+        width: 665px;
+        height: auto;
+        padding: 20px;
+        border-radius: 30px;
+        margin: auto;
+        float: none;
+    }
+    .left_container h2{
+        font-size: 25px;
+    }
+    .first_news{
+        margin-top: 20px;
+    }
+    .nasa_image{
+        width: 140px;
+        height: 125px;
+    }
+    .Nakov_image{
+        width: 130px;
+        height: 125px;
+        margin-left: 10px;
+    }
+    .MIT_image{
+        width: 130px;
+        height: 125px;
+        margin-left: 10px;
+    }
+    .microsoft_image{
+        width: 140px;
+        height: 140px;
+        margin-top: -10px;
+    }
+    .korea_image{
+        width: 140px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .facebook_image{
+        width: 130px;
+        height: 130px;
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    .text{
+        width: 497px;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+    .text p{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .text a{
+        font-size: 15px;
+    } 
+    footer{
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+        float: left;
+        background-color: #343434;
+        height: 235px; 
+        border-top-left-radius: 15px 15px;
+        border-top-right-radius: 15px 15px;
+    }
+    .our_team{
+        width: 150px;
+        height: 205px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .our_team span{
+        font-size: 16px;
+    }
+    .our_team p{
+        margin-top: 10px;
+    }
+    .our_team a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #ff9c00;
+    }
+    .our_team a:hover{
+        text-decoration: underline;
+    }
+    .partners{
+        width: 170px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .partners a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .partners a:hover{
+        text-decoration: underline;
+    }
+    .sponsors{
+        width: 155px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .sponsors a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .sponsors a:hover{
+        text-decoration: underline;
+    }
+    .friends{
+        width: 160px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .friends a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .friends a:hover{
+        text-decoration: underline;
+    }
+    .like{
+        width: 120px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .fakebook{
+        background-image: url("../images/facebook.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    .like_href{
+        width: 130px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+    }
+    .like a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .like a:hover{
+        text-decoration: underline;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .quicker{
+        background-image: url("../images/twitter.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    /*--------Left Container--------*/
+
+    /*--------Right Container--------*/
+    .right_container{
+        width: 665px;
+        height: 1035px;
+        margin: auto;  
+        float: none;
+        border-radius: 30px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .right_container h2{
+        font-size: 24px;
+    } 
+    .sharp_code{
+        margin-top: 10px; 
+    }
+    .java_code{
+        margin-top: 10px;  
+    }
+    .sharp_code pre{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .java_code pre{
+        font-size: 17px; 
+        font-family: sans-serif;
+    }
+    /*--------Right Container--------*/
+}
+@media screen and (max-width:1090px){
+    /*--------Left Container--------*/
+    .softuni_menu {
+        width:300px;
+        float: right;
+        height:80px;
+        overflow: hidden;
+    }
+    .softuni_menu:hover {
+        overflow: visible;
+        height:auto;
+        padding-bottom: 10px;
+        background-color: #ff9c00;
+        border-radius: 10px;
+        border: 2px solid gray;
+    }
+    .softuni_menu li {
+        float:none;
+    }
+    .left_container{
+        width: 665px;
+        height: auto;
+        padding: 20px;
+        border-radius: 30px;
+        margin: auto;
+        float: none;
+    }
+    .left_container h2{
+        font-size: 25px;
+    }
+    .first_news{
+        margin-top: 20px;
+    }
+    .nasa_image{
+        width: 140px;
+        height: 125px;
+    }
+    .Nakov_image{
+        width: 130px;
+        height: 125px;
+        margin-left: 10px;
+    }
+    .MIT_image{
+        width: 130px;
+        height: 125px;
+        margin-left: 10px;
+    }
+    .microsoft_image{
+        width: 140px;
+        height: 140px;
+        margin-top: -10px;
+    }
+    .korea_image{
+        width: 140px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .facebook_image{
+        width: 130px;
+        height: 130px;
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    .text{
+        width: 497px;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+    .text p{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .text a{
+        font-size: 15px;
+    } 
+    footer{
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+        float: left;
+        background-color: #343434;
+        height: 235px; 
+        border-top-left-radius: 15px 15px;
+        border-top-right-radius: 15px 15px;
+    }
+    .our_team{
+        width: 126px;
+        height: 205px;
+        float: left;
+        color: #ff9c00;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+    }
+    .our_team span{
+        font-size: 16px;
+    }
+    .our_team p{
+        margin-top: 10px;
+    }
+    .our_team a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #ff9c00;
+    }
+    .our_team a:hover{
+        text-decoration: underline;
+    }
+    .partners{
+        width: 125px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .partners a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .partners a:hover{
+        text-decoration: underline;
+    }
+    .sponsors{
+        width: 125px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .sponsors a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .sponsors a:hover{
+        text-decoration: underline;
+    }
+    .friends{
+        width: 140px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .friends a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+    }
+    .friends a:hover{
+        text-decoration: underline;
+    }
+    .like{
+        width: 105px;
+        height: 150px;
+        float: left;
+        color: #ff9c00;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: cursive;
+        margin-top: 30px;
+        margin-left: 5%;
+
+    }
+    .fakebook{
+        background-image: url("../images/facebook.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    .like_href{
+        width: 110px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+    }
+    .like a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .like a:hover{
+        text-decoration: underline;
+        font-size: 16px;
+        color: #ff9c00;
+        float: left;
+        margin-top: 3px;
+    }
+    .quicker{
+        background-image: url("../images/twitter.png");
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    /*--------Left Container--------*/
+
+    /*--------Right Container--------*/
+    .right_container{
+        width: 665px;
+        height: 1035px;
+        margin: auto;  
+        float: none;
+        border-radius: 30px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .right_container h2{
+        font-size: 24px;
+    } 
+    .sharp_code{
+        margin-top: 10px; 
+    }
+    .java_code{
+        margin-top: 10px;  
+    }
+    .sharp_code pre{
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .java_code pre{
+        font-size: 17px; 
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width:800px){
+    footer{
+        width: 100%;
+        height:150px;
+        margin-top: 40px;
+        display: inline-block;
+        float: left; 
+    }
+    .our_team{
+        width: 100px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        margin-left: 2.5%;
+    }
+    .our_team span{
+        font-size: 10px;
+    }
+    .our_team p{
+        margin-top: 10px;
+    }
+    .our_team a{
+        font-size: 10px;
+    }
+    .partners{
+        width: 120px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .partners a{
+        font-size:10px;
+    }
+    .sponsors{
+        width: 90px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .sponsors a{
+        font-size: 10px;
+    }
+    .friends{
+        width: 120px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .friends a{
+        font-size: 10px;
+    }
+    .like{
+        width: 100px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .fakebook{
+        background-image: url("../images/facebook.png");
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    .like_href{
+        width: 85px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+    }
+    .like a{
+        font-size: 10px;
+        float: left;
+        margin-top: 3px;
+    }
+    .like a:hover{
+        font-size: 10px;
+        float: left;
+        margin-top: 3px;
+    }
+    .quicker{
+        background-image: url("../images/twitter.png");
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+    }
+}
+/*---------------Responsive------------*/
