@@ -15,8 +15,8 @@ body{
 header{
     background-color: #ff9c00;
     height: 95px; 
-    -webkit-border-bottom-left-radius: 15px 15px;
-    -webkit-border-bottom-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
 }
 .softuni_icon{
     background-image: url("../images/Softuni.png");
@@ -171,12 +171,10 @@ iframe{
     border: 2px solid gray;
     width: 300px;
     height: auto;
-    float: right;
-    margin-right: 50px;  
+    float: right; 
     border-radius: 30px;
     padding: 20px;
     background-color: white;
-    /* margin-left: 150px; */
 }
 .jokes_container h2{
     color: #3d78b1;
@@ -309,7 +307,6 @@ iframe{
     background-image: url(../images/Programmer09.png);
     background-size: 180px 180px;
     background-repeat: no-repeat;
-    background-position-y: 30px;
     background-color: #368ebc;
 }
 .images:nth-child(9){
@@ -482,13 +479,22 @@ footer{
 /*------------Footer-------*/
 /*---------responsive------*/
 @media screen and (min-width: 1360px){
-   .jokes_container{
+    .jokes_container{
         width: 500px;
         float: right;
         margin-bottom: 20px;
     } 
 }
 @media screen and (max-width: 1250px){
+    .jokes_container{
+        border: 2px solid gray;
+        width: 300px;
+        height: auto;
+        float: right; 
+        border-radius: 30px;
+        padding: 20px;
+        background-color: white;
+    }
     footer{
         width: 100%;
         margin-top: 40px;
